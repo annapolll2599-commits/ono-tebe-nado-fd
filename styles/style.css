@@ -62,7 +62,7 @@ address {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
@@ -74,8 +74,8 @@ address {
   position: relative;
   font-size: 100px;
   margin-bottom: 135px;
-  letter-spacing: 0.3em;
-  line-height: 1.15;
+  letter-spacing: 30px;
+  line-height: 115px;
   text-transform: uppercase;
   z-index: 1;
 }
@@ -91,7 +91,7 @@ address {
 }
 
 .aligned-text_nospacing {
-  letter-spacing: 0;
+  letter-spacing: 0.2em;
 }
 
 .aligned-text_center {
@@ -114,11 +114,11 @@ address {
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 0.85em;
+  word-spacing: 0.9em;
 }
 
 .bet-button {
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   background: transparent;
