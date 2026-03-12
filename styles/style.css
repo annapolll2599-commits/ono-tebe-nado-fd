@@ -1,8 +1,3 @@
-.body {
-  font-size: 20px;
-  font-family: "Raleway";
-}
-
 .overlay {
   position: absolute;
   inset: 0;
@@ -78,7 +73,7 @@ address {
 .cover__title {
   position: relative;
   font-size: 100px;
-  margin-bottom: 106px;
+  margin-bottom: 135px;
   letter-spacing: 0.3em;
   line-height: 1.15;
   text-transform: uppercase;
@@ -113,7 +108,7 @@ address {
   align-items: center;
   position: relative;
   z-index: 1;
-  gap: 80px;
+  gap: 79px;
 }
 
 .cover__description-text {
