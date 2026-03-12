@@ -86,22 +86,20 @@ address {
 }
 
 .aligned-text_spacing {
-  letter-spacing: 30px; /* не понимаю в чем проблема, в макете указано расстояние 30 */
+  letter-spacing: 0.3em; /* не понимаю в чем проблема, в макете указано расстояние 30 */
 }
 
-.aligned-text {.   /*https://disk.yandex.com/i/fgTBhPIIGO2p9A Необходимо поработать с отступами между буквами. 
-Также скорректировать отступ между словами.  -  не совсем опнимаю почему слова неровно выстариваются */
+.aligned-text {   /*https://disk.yandex.com/i/fgTBhPIIGO2p9A   -  не совсем опнимаю почему слова неровно выстариваются */
   display: block;
   margin-top:30px;
 }
 
 .aligned-text_nospacing {
-  letter-spacing: 0px;
+    letter-spacing: 0;
 }
 
 .aligned-text_center {
     text-align: center;
-
 }
 
 .aligned-text_right {
