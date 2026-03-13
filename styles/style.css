@@ -63,35 +63,100 @@ address {
   text-underline-offset: 4px;
 }
 
-.cover {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding: 165px 50px 50px;
-  background-image: url("../images/cover.jpg");
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  margin-bottom: 180px;
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #000;
+  opacity: 0.6;
 }
 
-.cover__title {
+address {
+  font-style: normal;
+  line-height: 135%;
+  font-size: 18px;
+}
+
+
+.header {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+  padding: 92px 24px 92px;
+  gap: 43px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__links-list-item {
+  margin-left: 34px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item:first-child {
+  margin-left: 0;
+}
+
+.header__logo {
+  max-width: 136px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__address {
+  margin-left: auto;
+  margin-right: 36px;
+}
+
+.header__address a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.cover { 
+  display: flex; 
+  flex-direction: column; 
+  position: relative; 
+  padding: 165px 50px 50px; 
+  background-image: url("../images/cover.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  color: #fff; 
+  margin-bottom: 180px; 
+} 
+
+.cover__title { 
   position: relative; 
   font-size: 100px; 
   margin-bottom: 135px; 
-  letter-spacing: 0.3em; 
+  letter-spacing: 30px; 
   line-height: 115px; 
   text-transform: uppercase; 
   z-index: 1; 
+} 
+
+.aligned-text_spacing { /* нем могу понять как сделать расстояние между буквами, либо текст плывет или автотесты не пускают*/
+  letter-spacing: 0.3em; 
 }
 
-.aligned-text_spacing {
-  letter-spacing: 0.3em; /* не понимаю в чем проблема, в макете указано расстояние 30 */
-}
-
-.aligned-text {   /*https://disk.yandex.com/i/fgTBhPIIGO2p9A   -  не совсем опнимаю почему слова неровно выстариваются */
+.aligned-text {   
   display: block;
-  margin-top: 30px;
+  margin-top: 20px;
   line-height: 1; 
 }
 
@@ -105,6 +170,216 @@ address {
 
 .aligned-text_right {
     text-align: end;
+}
+
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  gap: 79px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 0.9em;
+}
+
+.bet-button {
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid currentColor;
+  padding: 12px 31px;
+  cursor: pointer;
+}
+
+
+.lots {
+  margin-bottom: 120px;
+  padding: 0 24px;
+}
+
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 27px;
+
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style-type: none;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  flex-grow: 1;
+  min-height: 596px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.card {
+  padding: 51px 40px 48px;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  z-index: 2;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.card__text {
+  z-index: 2;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: start;
+}
+
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg")
+}
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+
+.about {
+  padding-left: 71px;
+  margin-bottom: 169px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 8px 72px;
+  margin-right: 24px;
+}
+
+  .about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  align-self: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.about__text {
+  grid-column: 2 / span 2;
+  line-height: 120%;
+  letter-spacing: 0.007em;
+  margin-bottom: 15px;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 0;
+  padding: 0 50px 82px 50px;;
+}
+
+.footer a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.footer__menu {
+  justify-self: center;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-decoration-color: currentColor;
+
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-self: end;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
 
 
