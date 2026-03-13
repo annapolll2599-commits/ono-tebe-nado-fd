@@ -85,7 +85,7 @@ address {
   z-index: 1; 
 } 
 
-.aligned-text_spacing { /* нем могу понять как сделать расстояние между буквами, либо текст плывет или автотесты не пускают*/
+.aligned-text_spacing { 
   letter-spacing: 0.3em; 
 }
 
