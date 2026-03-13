@@ -3,73 +3,62 @@
   inset: 0;
   background-color: #000;
   opacity: 0.6;
-
 }
 
 address {
-  font-style: normal;
+    font-style: normal;
   line-height: 135%;
   font-size: 18px;
-
 }
 
 .header {
-  font-size: 18px;
+    font-size: 18px;
   display: flex;
   align-items: center;
   margin: 0 25px;
   padding: 92px 24px 92px;
   gap: 43px;
-
 }
 
 .header__links-list {
-  display: flex;
+    display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .header__links-list-item {
-  margin-left: 34px;
+    margin-left: 34px;
   list-style: circle;
-
 }
 
 .header__links-list-item_no-bullit {
-  list-style: none;
-
+    list-style: none;
 }
 
 .header__link_active {
-  text-decoration: none;
-
+    text-decoration: none;
 }
 
 
 
 .header__links-list-item:first-child {
-  margin-left: 0;
-
+    margin-left: 0;
 }
 
 
 .header__logo {
-  max-width: 136px;
-
+    max-width: 136px;
 }
 
 
 .header__logo-image {
   width: 100%;
-
 }
 
 
 .header__address {
   margin-left: auto;
   margin-right: 36px;
-
 }
 
 
@@ -77,7 +66,6 @@ address {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-
 }
 
 
@@ -103,13 +91,11 @@ address {
   line-height: 115px; 
   text-transform: uppercase; 
   z-index: 1; 
-
 } 
 
 
 .aligned-text_spacing { 
   letter-spacing: 30%; 
-
 }
 
 
@@ -117,19 +103,16 @@ address {
   display: block;
   margin-top: 20px;
   line-height: 100%; 
-
 }
 
 
 .aligned-text_nospacing {
     letter-spacing: 0;
-
 }
 
 
 .aligned-text_center {
     text-align: center;
-
 }
 
 
@@ -179,7 +162,6 @@ address {
   text-transform: uppercase;
   margin-left: 40px;
   margin-bottom: 27px;
-
 }
 
 .lots__card-list {
