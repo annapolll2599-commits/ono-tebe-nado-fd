@@ -63,7 +63,6 @@ address {
   text-underline-offset: 4px;
 }
 
-
 .cover { 
   display: flex; 
   flex-direction: column; 
@@ -108,7 +107,6 @@ address {
     text-align: end;
 }
 
-
 .cover__description {
   display: flex;
   justify-content: space-between;
@@ -134,7 +132,6 @@ address {
   padding: 12px 31px;
   cursor: pointer;
 }
-
 
 .lots {
   margin-bottom: 120px;
@@ -202,7 +199,6 @@ address {
   text-align: start;
 }
 
-
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg")
 }
@@ -222,7 +218,6 @@ address {
   text-underline-offset: 4px;
 }
 
-
 .about {
   padding-left: 71px;
   margin-bottom: 169px;
@@ -235,7 +230,7 @@ address {
   margin-right: 24px;
 }
 
-  .about__logo {
+.about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,7 +290,6 @@ address {
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
   text-decoration-color: currentColor;
-
 }
 
 .footer__menu-link_active {
