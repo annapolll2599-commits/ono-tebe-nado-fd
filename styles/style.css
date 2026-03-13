@@ -3,14 +3,15 @@
   inset: 0;
   background-color: #000;
   opacity: 0.6;
+
 }
 
 address {
   font-style: normal;
   line-height: 135%;
   font-size: 18px;
-}
 
+}
 
 .header {
   font-size: 18px;
@@ -19,49 +20,66 @@ address {
   margin: 0 25px;
   padding: 92px 24px 92px;
   gap: 43px;
+
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   align-items: center;
+
 }
 
 .header__links-list-item {
   margin-left: 34px;
   list-style: circle;
+
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+
 }
 
 .header__link_active {
   text-decoration: none;
+
 }
+
+
 
 .header__links-list-item:first-child {
   margin-left: 0;
+
 }
+
 
 .header__logo {
   max-width: 136px;
+
 }
+
 
 .header__logo-image {
   width: 100%;
+
 }
+
 
 .header__address {
   margin-left: auto;
   margin-right: 36px;
+
 }
+
 
 .header__address a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
+
 }
+
 
 .cover { 
   display: flex; 
@@ -72,40 +90,53 @@ address {
   background-size: cover; 
   background-position: center; 
   color: #fff; 
-  margin-bottom: 180px; 
+  margin-bottom: 180px;
 } 
+
+
 
 .cover__title { 
   position: relative; 
   font-size: 100px; 
   margin-bottom: 135px; 
-  letter-spacing: 30px; 
+  letter-spacing: 30%; 
   line-height: 115px; 
   text-transform: uppercase; 
   z-index: 1; 
+
 } 
 
+
 .aligned-text_spacing { 
-  letter-spacing: 0.3em; 
+  letter-spacing: 30%; 
+
 }
+
 
 .aligned-text {   
   display: block;
   margin-top: 20px;
-  line-height: 1; 
+  line-height: 100%; 
+
 }
+
 
 .aligned-text_nospacing {
     letter-spacing: 0;
+
 }
+
 
 .aligned-text_center {
     text-align: center;
+
 }
+
 
 .aligned-text_right {
     text-align: end;
 }
+
 
 .cover__description {
   display: flex;
@@ -116,11 +147,13 @@ address {
   gap: 79px;
 }
 
+
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 0.9em;
 }
+
 
 .bet-button {
   font-family: Raleway, Arial, sans-serif;
@@ -131,11 +164,13 @@ address {
   border: 1px solid currentColor;
   padding: 12px 31px;
   cursor: pointer;
+
 }
 
 .lots {
   margin-bottom: 120px;
   padding: 0 24px;
+
 }
 
 .lots__heading {
